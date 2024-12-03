@@ -6,4 +6,4 @@ mpicc:
 	$(MPICC) $(CFLAGS) ./main.c -o mpi-cluster
 
 mpirun:
-	$(MPIRUN) --host master:2,slave:2 -np 4 ./mpi-cluster
+	$(MPIRUN) --host master:2,slave:2 ./mpi-cluster

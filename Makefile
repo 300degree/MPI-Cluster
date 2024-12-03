@@ -1,6 +1,6 @@
 MPICC = mpicc
 MPIRUN = mpirun
-CFLAGS = -g -Wall -std=c17
+CFLAGS = -Wall -std=c17
 
 mpicc:
 	$(MPICC) $(CFLAGS) ./main.c -o mpi-cluster
